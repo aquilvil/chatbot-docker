@@ -2,9 +2,7 @@
 # chatbot-docker
 App Proyecto Integrador
 
-Mejora del chatbot.
-
-##Flujo de trabajo con ramas:
+## Flujo de trabajo con ramas:
 
 1. Crear rama desde develop.
 2. Funcionalidad de la rama.
