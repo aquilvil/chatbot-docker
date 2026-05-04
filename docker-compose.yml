@@ -1,0 +1,13 @@
+services:
+  chatbot:
+    build: .
+    container_name: chatbot-python
+
+    volumes:
+      - ./base_datos.json:/app/base_datos.json
+
+    stdin_open: true
+    tty: true
+
+    ports:
+      - "5000:5000"
